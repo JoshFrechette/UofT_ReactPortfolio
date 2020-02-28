@@ -1,0 +1,7 @@
+// @include foundation-everything(true);
+
+$global-flexbox: true;
+
+// @include foundation-grid;
+@include foundation-flex-grid;
+@include foundation-flex-classes;

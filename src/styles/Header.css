@@ -1,0 +1,17 @@
+/* Needed, otherwise nav will display below header and extend it */
+.navbar-brand .header{
+    /* position: fixed; */
+    display: inline;   
+}
+
+.top-bar {
+    background-color: "none";
+}
+
+#brand-logo {
+    margin: 5px 20px 20px 20px;
+}
+
+li {
+    list-style-type: none;
+}

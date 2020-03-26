@@ -1,6 +1,12 @@
+.bio {
+    margin: 1rem 10rem 1rem 10rem;
+    text-align: left;
+}
+
 .profile {
     max-width: 200px;
     max-height: 200px;
     float: left;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
+    border-radius: 50%;
 }

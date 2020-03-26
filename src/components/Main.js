@@ -8,7 +8,7 @@ import "../styles/Main.css";
 export default class Main extends Component {
     render() {
       return (
-        <div className="main">
+        <div >
             <BioInfo />
             <PortfolioInfo />
             <ContactInfo />

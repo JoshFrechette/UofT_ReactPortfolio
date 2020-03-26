@@ -24,7 +24,7 @@ export default class BioInfo extends Component {
             <p>
             Using my combined expertise to create an immersive user experience, I'm excited to join a team of like-minded individuals who are striving to leave their mark on the web.
             </p>
-            <i class="far fa-file-pdf"></i> <a class="resume" href="Assets/JoshuaFrechette_Resume_2019.pdf" target="_blank">View Resume</a>
+            <i className="far fa-file-pdf"></i> <a className="resume" href="Assets/JoshuaFrechette_Resume_2019.pdf" target="_blank">View Resume</a>
             </div>
         )
     }

@@ -19,4 +19,13 @@
 
 .card {
     max-width: 33%;
+    margin: 1rem;
+}
+
+.button {
+    margin: 1rem;
+}
+
+.card-divider {
+    text-align: center;
 }

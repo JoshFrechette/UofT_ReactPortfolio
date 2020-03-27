@@ -1,3 +1,11 @@
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats {
+    text-align: center;
+}
 .bio {
     margin-bottom: 10rem;
     text-align: left;
@@ -6,7 +14,11 @@
 .profile {
     max-width: 200px;
     max-height: 200px;
-    float: left;
+    /* float: left; */
     /* padding-right: 1rem; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
+}
+
+.blurb {
+    margin-left: 2rem;
 }

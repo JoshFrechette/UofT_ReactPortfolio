@@ -13,6 +13,7 @@ export default class Header extends Component {
           </div>
           <div className="title-bar-right">
             <ul>
+              <li className="justify-content-end d-flex"><a href="/">Home</a></li>
               <li className="justify-content-end d-flex"><a href="#about-me">About Me</a></li>
               <li className="justify-content-end d-flex"><a href="#my-portfolio">Portfolio</a></li>
               <li className="justify-content-end d-flex"><a href="#contact-me">Contact</a></li>

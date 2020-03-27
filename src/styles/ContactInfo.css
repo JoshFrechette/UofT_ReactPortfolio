@@ -1,0 +1,12 @@
+.contact {
+    margin-top: 10rem;
+
+}
+
+#reachme {
+    /* display:inline-block; */
+    display: flex;
+    justify-content:space-around ;
+
+}
+

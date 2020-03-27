@@ -35,6 +35,7 @@ export default class PortfolioInfo extends Component {
                                 </div>
                             </div>
                         </div>
+
                         <div class="cell small-4">
                             <div className="card">
                                 <div className="card-divider">
@@ -50,6 +51,7 @@ export default class PortfolioInfo extends Component {
                                 </div>
                             </div>
                         </div>
+
                         <div class="cell small-4">
                             <div className="card">
                                 <div className="card-divider">
@@ -65,6 +67,7 @@ export default class PortfolioInfo extends Component {
                                 </div>
                             </div>
                         </div>
+
                         <div class="cell small-4">
                             <div className="card">
                                 <div className="card-divider">
@@ -80,6 +83,7 @@ export default class PortfolioInfo extends Component {
                                 </div>
                             </div>
                         </div>
+
                         <div class="cell small-4">
                             <div className="card">
                                 <div className="card-divider">
@@ -95,19 +99,21 @@ export default class PortfolioInfo extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div class="cell small-4">                    <div className="card">
-                            <div className="card-divider">
-                                <h3>Fries With That?</h3>
-                            </div>
-                            <img src={Burger} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
-                            <div className="card-section">
-                                <p>An assignment from the UofT SCS Coding Bootcamp, with an emphasis on ORMs, CRUDs, mySQL and Handlebars.</p>
-                                <div className="row">
-                                    <a href='https://joshfdesign-fries-with-that.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
-                                    <a href='https://github.com/TwistedPixels/Fries_With_That.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+
+                        <div class="cell small-4">
+                            <div className="card">
+                                <div className="card-divider">
+                                    <h3>Fries With That?</h3>
+                                </div>
+                                <img src={Burger} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
+                                <div className="card-section">
+                                    <p>An assignment from the UofT SCS Coding Bootcamp, with an emphasis on ORMs, CRUDs, mySQL and Handlebars.</p>
+                                    <div className="row">
+                                        <a href='https://joshfdesign-fries-with-that.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
+                                        <a href='https://github.com/TwistedPixels/Fries_With_That.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>

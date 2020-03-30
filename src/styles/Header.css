@@ -23,7 +23,7 @@
     align-items: left;
 }
 
-li {
+.navlinks {
     list-style-type: none;
     margin-right: 1rem;
 }

@@ -27,7 +27,7 @@ let portfolioInfo = () => {
                                 </div>
                                 <img src={Dragons} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p>Jobs&#38;Dragons is the final team project for the UofT SCS Coding Bootcamp.</p>
+                                    <p>Jobs&#38;Dragons is a web application </p>
                                     <div className="row">
                                         <Link to="/jandd">Tech Spec Page</Link>
 

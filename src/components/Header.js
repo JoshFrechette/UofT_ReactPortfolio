@@ -12,12 +12,12 @@ let Header = () => {
           </div>
           <div className="title-bar-right">
             <ul>
-              <li className="justify-content-end d-flex"><a href="/">Home</a></li>
-              <li className="justify-content-end d-flex"><a href="/#about-me">About Me</a></li>
-              <li className="justify-content-end d-flex"><a href="/#my-portfolio">Portfolio</a></li>
-              <li className="justify-content-end d-flex"><a href="/#contact-me">Contact</a></li>
-              <li className="justify-content-end d-flex"><a href="https://github.com/JoshFrechette" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
-              <li className="justify-content-end d-flex"><a href="http://ca.linkedin.com/in/joshuafrechette" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
+              <li className="justify-content-end d-flex navlinks"><a href="/">Home</a></li>
+              <li className="justify-content-end d-flex navlinks"><a href="/#about-me">About Me</a></li>
+              <li className="justify-content-end d-flex navlinks"><a href="/#my-portfolio">Portfolio</a></li>
+              <li className="justify-content-end d-flex navlinks"><a href="/#contact-me">Contact</a></li>
+              <li className="justify-content-end d-flex navlinks" ><a href="https://github.com/JoshFrechette" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+              <li className="justify-content-end d-flex navlinks"><a href="http://ca.linkedin.com/in/joshuafrechette" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>

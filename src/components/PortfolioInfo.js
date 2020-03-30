@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
+import { Link } from 'react-router-dom';
 import "../styles/PortfolioInfo.css";
 import "../styles/styles.scss";
-import Dungeons from "../img/Jobs&Dragons.png";
+import Dragons from "../img/Jobs&Dragons.png";
 import PostUp from "../img/PopUpCards_Project2.png";
 import JobRocket from "../img/JobRocket_Project1.png";
 import WeatherDash from "../img/WeatherDashboard.png";
@@ -9,8 +10,7 @@ import Sched from "../img/WorkDayScheduler.png";
 import Burger from "../img/fries_with_that.png";
 
 
-export default class PortfolioInfo extends Component {
-    render() {
+let portfolioInfo = () => {
         return (
             <div className="portfolio">
                 <div>
@@ -25,12 +25,12 @@ export default class PortfolioInfo extends Component {
                                 <div className="card-divider">
                                     <h3 className="card-title">Jobs&#38;Dragons</h3>
                                 </div>
-                                <img src={Dungeons} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
+                                <img src={Dragons} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
                                     <p>Jobs&#38;Dragons is the final team project for the UofT SCS Coding Bootcamp.</p>
                                     <div className="row">
-                                        <a href='https://jobs-and-dragons.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
-                                        <a href='https://github.com/Winyumi/jobs-and-dragons' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                                        <Link to="/jandd">Tech Spec Page</Link>
+
                                     </div>
                                 </div>
                             </div>
@@ -45,6 +45,7 @@ export default class PortfolioInfo extends Component {
                                 <div className="card-section">
                                     <p>PostUp Cards is the second team project for the UofT SCS Coding Bootcamp.</p>
                                     <div className="row">
+                                    <Link to="/postup">Tech Spec Page</Link>
                                         <a href='https://postup-cards.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
                                         <a href='https://github.com/TwistedPixels/PostUp-Cards.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                                     </div>
@@ -61,6 +62,7 @@ export default class PortfolioInfo extends Component {
                                 <div className="card-section">
                                     <p>JobRocket is the first team project for the UofT SCS Coding Bootcamp.</p>
                                     <div className="row">
+                                    <Link to="/jobrocket">Tech Spec Page</Link>
                                         <a href='https://michaelhrivnak.github.io/JobRocket/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
                                         <a href='https://github.com/michaelhrivnak/JobRocket.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                                     </div>
@@ -77,6 +79,7 @@ export default class PortfolioInfo extends Component {
                                 <div className="card-section">
                                     <p>An assignment from the UofT SCS Coding Bootcamp.</p>
                                     <div className="row">
+                                    <Link to="/dashboard">Tech Spec Page</Link>
                                         <a href='https://twistedpixels.github.io/WeatherDashboard/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
                                         <a href='https://github.com/TwistedPixels/WeatherDashboard.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                                     </div>
@@ -93,6 +96,7 @@ export default class PortfolioInfo extends Component {
                                 <div className="card-section">
                                     <p>An assignment from the UofT SCS Coding Bootcamp.</p>
                                     <div className="row">
+                                    <Link to="/planner">Tech Spec Page</Link>
                                         <a href='https://twistedpixels.github.io/DayPlanDreamer/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
                                         <a href='https://github.com/TwistedPixels/DayPlanDreamer.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                                     </div>
@@ -109,6 +113,7 @@ export default class PortfolioInfo extends Component {
                                 <div className="card-section">
                                     <p>An assignment from the UofT SCS Coding Bootcamp, with an emphasis on ORMs, CRUDs, mySQL and Handlebars.</p>
                                     <div className="row">
+                                    <Link to="/burger">Tech Spec Page</Link>
                                         <a href='https://joshfdesign-fries-with-that.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
                                         <a href='https://github.com/TwistedPixels/Fries_With_That.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                                     </div>
@@ -121,5 +126,7 @@ export default class PortfolioInfo extends Component {
 
             </div>
         )
-    }
+
 }
+
+export default portfolioInfo;

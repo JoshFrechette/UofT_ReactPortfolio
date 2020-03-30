@@ -1,5 +1,6 @@
 .main {
-    margin: 1rem 10rem 0rem 10rem;
+    margin: 0rem 10rem 0rem 10rem;
+    padding-top: 15rem;
     height: 100%;
     background-image: url(../img/funky-lines.png);
     background-size: 'cover';

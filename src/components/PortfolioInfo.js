@@ -23,13 +23,13 @@ let portfolioInfo = () => {
                         <div class="cell small-4">
                             <div className="card">
                                 <div className="card-divider">
-                                    <h3 className="card-title">Jobs&#38;Dragons</h3>
+                                    <h3>Jobs&#38;Dragons</h3>
                                 </div>
                                 <img src={Dragons} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p>Jobs&#38;Dragons is a web application </p>
-                                    <div className="row">
-                                        <Link to="/jandd">Tech Spec Page</Link>
+                                    <p>Jobs&#38;Dragons is a web application that gamifies the job search and career development process.</p>
+                                    <div className="row techlink">
+                                       <Link to="/jandd"><button className="button">Tech Spec Page</button></Link>
 
                                     </div>
                                 </div>
@@ -45,9 +45,7 @@ let portfolioInfo = () => {
                                 <div className="card-section">
                                     <p>PostUp Cards is the second team project for the UofT SCS Coding Bootcamp.</p>
                                     <div className="row">
-                                    <Link to="/postup">Tech Spec Page</Link>
-                                        <a href='https://postup-cards.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
-                                        <a href='https://github.com/TwistedPixels/PostUp-Cards.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                                    <Link to="/postup"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>

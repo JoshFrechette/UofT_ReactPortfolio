@@ -19,14 +19,18 @@ let Dragons = () => {
 
                     <div>
                         <h3>Technical Sheet</h3>
-                        <p>I was part of an 8 person team of students tasked with developing an original web application idea that integrated everything that we had learnt in the bootcamp.</p>
+                        <p>I was part of an 8 person team of students tasked with developing an original web application idea that integrated all of the coding concepts that we were taught in the bootcamp.</p>
                         <hr></hr>
-                        <p></p>
+                        <p>My principal role in the project was Art Director, however I was very involved in manipulating the React game engine and integrating
+                            the web forms and database information into the gameplay as well. I led the UI/UX development, creating mockups and the website flowchart which allowed the 
+                            team to visualize the application. The biggest challenge I faced was balancing the gameplay aspect with the productive career aspects of the app. 
+
+                        </p>
                     </div>
 
                     <div>
                         <h3>Technologies Used</h3>
-                        <p>Code technologies and skills I was involved with using to complete the project</p>
+                        <p>Code technologies and skills I was involved with using to complete the project.</p>
                         <ul className="tech">
                             <li>HTML5</li>
                             <li>CSS3</li>

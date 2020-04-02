@@ -60,11 +60,9 @@ let portfolioInfo = () => {
                                 </div>
                                 <img src={JobRocket} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p>JobRocket is the first team project for the UofT SCS Coding Bootcamp.</p>
-                                    <div className="row">
-                                    <Link to="/jobrocket">Tech Spec Page</Link>
-                                        <a href='https://michaelhrivnak.github.io/JobRocket/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
-                                        <a href='https://github.com/michaelhrivnak/JobRocket.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                                    <p></p>
+                                    <div className="row techlink">
+                                    <Link to="/jobrocket"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>

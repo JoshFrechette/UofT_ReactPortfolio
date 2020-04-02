@@ -21,8 +21,9 @@ let PostUp = () => {
                         <h3>Technical Sheet</h3>
                         <p>I was part of a 4 person team of students tasked with developing an original web application idea that integrated all of the coding concepts that we were taught thus far in the bootcamp.</p>
                         <hr></hr>
-                        <p>
-
+                        <p> My initial role in project was project manager and I also had the responsibility of setting up the routes and creating the schema for the MySQL database. I eventually
+                            became more hands-on in the overall design of the app and implementing the javascript into the app. This project helped push me out of my comfort zone of working on front-end design and
+                            into more challenging back-end content management. 
                         </p>
                     </div>
 
@@ -32,17 +33,17 @@ let PostUp = () => {
                         <ul className="tech">
                             <li>HTML5</li>
                             <li>CSS3</li>
-                            <li>MaterializeCSS</li>
-                            <li>React</li>
+                            <li>Javascript</li>
+                            <li>Foundation CSS</li>
+                            <li>Handlebars</li>
                             <li>Node.js</li>
                             <li>Express.js</li>
-                            <li>Mongoose, MongoDB</li>
-                            <li>Auth0</li>
+                            <li>MySQL</li>
                         </ul>
                         <p>APIs used</p>
                         <ul className="tech">
-                            <li>AuthenticJobs</li>
-                            <li>GitHub API</li>
+                            <li>Ball Don't Lie</li>
+                            <li>Giphy</li>
                         </ul>
                     </div>
                 </div>

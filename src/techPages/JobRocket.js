@@ -21,7 +21,8 @@ let JobRocket = () => {
                         <h3>Technical Sheet</h3>
                         <p>I was part of a 4 person team of students tasked with developing an original web application idea that integrated all of the coding concepts that we were taught thus far in the bootcamp.</p>
                         <hr></hr>
-                        <p>
+                        <p>I developed the UI/UX of the project, then transitioned to working on the Adzuna API calls. In the final phase of development, I alternated between working on the back-end and the front-end, switching 
+                            to wherever I was needed most. This was the first group coding project that I worked on and it taught me about communicating and coordinating as a group as much as it did about coding.
 
                         </p>
                     </div>
@@ -32,17 +33,14 @@ let JobRocket = () => {
                         <ul className="tech">
                             <li>HTML5</li>
                             <li>CSS3</li>
-                            <li>MaterializeCSS</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>Mongoose, MongoDB</li>
-                            <li>Auth0</li>
+                            <li>Javascript</li>
+                            <li>BootstrapCSS</li>
+                            <li>JoaderJS</li>
                         </ul>
                         <p>APIs used</p>
                         <ul className="tech">
-                            <li>AuthenticJobs</li>
-                            <li>GitHub API</li>
+                            <li>Adzuna</li>
+                            <li>GoogleMaps</li>
                         </ul>
                     </div>
                 </div>

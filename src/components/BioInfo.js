@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/BioInfo.css";
 import BioPic from "../img/JF-LinkedIn.jpg";
 import CV from "../img/JoshuaFrechette_Resume_2019.pdf";
 
-export default class BioInfo extends Component {
-    render() {
+let bioInfo = () => {
+
         return (
             <div className="container bio">
                 <div className="row">
@@ -36,11 +36,12 @@ export default class BioInfo extends Component {
                             <p>
                                 Using my combined expertise to create an immersive user experience, I'm excited to join a team of like-minded individuals who are striving to leave their mark on the web.
             </p>
-                            <i className="far fa-file-pdf"></i> <a className="resume" href={ CV } target="_blank">View Resume</a>
+                            <i className="far fa-file-pdf"></i> <a className="resume" href={ CV } target="_blank" rel="noopener noreferrer">View Resume</a>
                         </div>
                     </div>
  
             </div>
         )
-    }
 }
+ 
+export default bioInfo;

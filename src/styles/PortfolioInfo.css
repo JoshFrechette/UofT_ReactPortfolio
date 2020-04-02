@@ -8,7 +8,11 @@
     margin: 1rem;
 }
 
-.card-title {
+.card-divider {
+    text-align: center;
+}
+
+.techlink {
     text-align: center;
 }
 

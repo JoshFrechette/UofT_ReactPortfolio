@@ -91,11 +91,9 @@ let portfolioInfo = () => {
                                 </div>
                                 <img src={Sched} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p>An assignment from the UofT SCS Coding Bootcamp.</p>
-                                    <div className="row">
-                                    <Link to="/planner">Tech Spec Page</Link>
-                                        <a href='https://twistedpixels.github.io/DayPlanDreamer/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
-                                        <a href='https://github.com/TwistedPixels/DayPlanDreamer.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                                    <p>Work Day Planner is a productivity app that let's the user plan out their 9-5 workday.</p>
+                                    <div className="row techlink">
+                                    <Link to="/planner"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>

@@ -43,8 +43,10 @@ let portfolioInfo = () => {
                                 </div>
                                 <img src={PostUp} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p>PostUp Cards is the second team project for the UofT SCS Coding Bootcamp.</p>
-                                    <div className="row">
+                                    <p>PostUp Cards is a web application that allows the user to create and collect
+                                        digital basketball cards.
+                                    </p>
+                                    <div className="row techlink">
                                     <Link to="/postup"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
@@ -109,11 +111,9 @@ let portfolioInfo = () => {
                                 </div>
                                 <img src={Burger} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p>An assignment from the UofT SCS Coding Bootcamp, with an emphasis on ORMs, CRUDs, mySQL and Handlebars.</p>
-                                    <div className="row">
-                                    <Link to="/burger">Tech Spec Page</Link>
-                                        <a href='https://joshfdesign-fries-with-that.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
-                                        <a href='https://github.com/TwistedPixels/Fries_With_That.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                                    <p>Fries With That? allows the user to log multiple burger orders and change their state once they've been eaten.</p>
+                                     <div className="row techlink">
+                                    <Link to="/burger"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>

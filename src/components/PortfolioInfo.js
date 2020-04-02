@@ -4,9 +4,9 @@ import "../styles/PortfolioInfo.css";
 import "../styles/styles.scss";
 import Dragons from "../img/Jobs&Dragons.png";
 import PostUp from "../img/PopUpCards_Project2.png";
-import JobRocket from "../img/JobRocket_Project1.png";
-import WeatherDash from "../img/WeatherDashboard.png";
-import Sched from "../img/WorkDayScheduler.png";
+import JobRocket from "../img/JobRocket.png";
+import WeatherDash from "../img/WeatherDash.png";
+import Sched from "../img/Planner.png";
 import Burger from "../img/fries_with_that.png";
 
 

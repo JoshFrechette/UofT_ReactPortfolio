@@ -60,7 +60,8 @@ let portfolioInfo = () => {
                                 </div>
                                 <img src={JobRocket} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p></p>
+                                    <p>JobRocket is a web application that allows the user to search for a job in their area and view its location.
+                                    </p>
                                     <div className="row techlink">
                                     <Link to="/jobrocket"><button className="button">Tech Spec Page</button></Link>
                                     </div>

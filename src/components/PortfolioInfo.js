@@ -76,11 +76,9 @@ let portfolioInfo = () => {
                                 </div>
                                 <img src={WeatherDash} className="portfolio" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
-                                    <p>An assignment from the UofT SCS Coding Bootcamp.</p>
-                                    <div className="row">
-                                    <Link to="/dashboard">Tech Spec Page</Link>
-                                        <a href='https://twistedpixels.github.io/WeatherDashboard/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
-                                        <a href='https://github.com/TwistedPixels/WeatherDashboard.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                                    <p>The Weather Dashboard app lets the user look up current weather and forecasts for selected cities.</p>
+                                    <div className="row techlink">
+                                    <Link to="/dashboard"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>

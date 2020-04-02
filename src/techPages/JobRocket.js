@@ -2,13 +2,13 @@ import React from "react";
 import "../styles/spec.css";
 import Preview from "../img/JobRocket.gif";
 
-let PostUp = () => {
+let JobRocket = () => {
     return (
         <div className="container specs">
             <div className="row project">
                 <div className="col">
                     <div>
-                        <h1>PostUp Cards</h1>
+                        <h1>JobRocket</h1>
                         <p>JobRocket is the first team project for the UofT SCS Coding Bootcamp.</p>
                         <a href='https://michaelhrivnak.github.io/JobRocket/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
                         <a href='https://github.com/michaelhrivnak/JobRocket.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
@@ -51,4 +51,4 @@ let PostUp = () => {
     )
 }
 
-export default PostUp;
+export default JobRocket;

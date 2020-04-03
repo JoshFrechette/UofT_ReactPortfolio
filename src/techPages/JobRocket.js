@@ -9,7 +9,7 @@ let JobRocket = () => {
                 <div className="col">
                     <div>
                         <h1>JobRocket</h1>
-                        <p>JobRocket is the first team project for the UofT SCS Coding Bootcamp.</p>
+                        <p></p>
                         <a href='https://michaelhrivnak.github.io/JobRocket/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
                         <a href='https://github.com/michaelhrivnak/JobRocket.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                     </div>
@@ -19,7 +19,7 @@ let JobRocket = () => {
 
                     <div>
                         <h3>Technical Sheet</h3>
-                        <p>I was part of a 4 person team of students tasked with developing an original web application idea that integrated all of the coding concepts that we were taught thus far in the bootcamp.</p>
+                        <p>I was part of a 4 person team of developers tasked with developing an original web application idea that integrated two APIs.</p>
                         <hr></hr>
                         <p>I developed the UI/UX of the project, then transitioned to working on the Adzuna API calls. In the final phase of development, I alternated between working on the back-end and the front-end, switching 
                             to wherever I was needed most. This was the first group coding project that I worked on and it taught me about communicating and coordinating as a group as much as it did about coding.

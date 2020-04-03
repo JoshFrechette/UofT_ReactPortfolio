@@ -9,7 +9,7 @@ let WeatherDash = () => {
                 <div className="col">
                     <div>
                         <h1>Weather Dashboard</h1>
-                        <p>An assignment from the UofT SCS Coding Bootcamp.</p>
+                        <p></p>
                         <a href='https://joshfrechette.github.io/WeatherDashboard/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
                         <a href='https://github.com/JoshFrechette/WeatherDashboard.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                     </div>
@@ -19,9 +19,9 @@ let WeatherDash = () => {
 
                     <div>
                         <h3>Technical Sheet</h3>
-                        <p>I was part of a 4 person team of students tasked with developing an original web application idea that integrated all of the coding concepts that we were taught thus far in the bootcamp.</p>
+                        <p>Weather Dashboard is a solo project that is designed for travellers to search for current weather and forecasts of searched destinations.</p>
                         <hr></hr>
-                        <p>
+                        <p> 
 
                         </p>
                     </div>
@@ -32,17 +32,13 @@ let WeatherDash = () => {
                         <ul className="tech">
                             <li>HTML5</li>
                             <li>CSS3</li>
-                            <li>MaterializeCSS</li>
-                            <li>React</li>
+                            <li>Bootstrap</li>
+                            <li>Moment.js</li>
                             <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>Mongoose, MongoDB</li>
-                            <li>Auth0</li>
                         </ul>
                         <p>APIs used</p>
                         <ul className="tech">
-                            <li>AuthenticJobs</li>
-                            <li>GitHub API</li>
+                            <li>OpenWeather</li>
                         </ul>
                     </div>
                 </div>

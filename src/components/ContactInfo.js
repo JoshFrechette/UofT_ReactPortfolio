@@ -15,7 +15,7 @@ export default class ContactInfo extends Component {
                 <div className="row" id="reachme">
                     <div className="col">
                         <a className="reach-out" href="mailto:joshfdesign@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <i className="far fa-paper-plane fa-fw"></i> email me</a>
+                            <i className="far fa-paper-plane fa-fw"></i> joshfdesign@gmail.com</a>
                     </div>
                     <div className="col">
                         <p className="reach-out"><i class="fas fa-mobile-alt"></i> 647.302.0661</p>

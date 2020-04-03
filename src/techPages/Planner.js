@@ -19,7 +19,7 @@ let Sched = () => {
 
                     <div>
                         <h3>Technical Sheet</h3>
-                        <p>Solo project with dynamically updated HTML and CSS powered by jQuery. Application is an interactive day planner that utilizes moment.js and AJAX</p>
+                        <p>Solo project with dynamically updated HTML and CSS powered by jQuery. Application is an interactive day planner that utilizes moment.js and AJAX.</p>
                         <hr></hr>
                         <p>
 
@@ -36,6 +36,7 @@ let Sched = () => {
                             <li>Moment.js</li>
                             <li>Javascript</li>
                             <li>jQuery</li>
+                            <li>AJAX</li>
                         </ul>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ let Sched = () => {
                 <div className="col">
                     <div>
                         <h1>Work Day Planner</h1>
-                        <p>An assignment from the UofT SCS Coding Bootcamp.</p>
+                        <p></p>
                         <a href='https://joshfrechette.github.io/DayPlanDreamer/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
                         <a href='https://github.com/JoshFrechette/DayPlanDreamer.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                     </div>
@@ -19,7 +19,7 @@ let Sched = () => {
 
                     <div>
                         <h3>Technical Sheet</h3>
-                        <p>I was part of a 4 person team of students tasked with developing an original web application idea that integrated all of the coding concepts that we were taught thus far in the bootcamp.</p>
+                        <p>Solo project with dynamically updated HTML and CSS powered by jQuery. Application is an interactive day planner that utilizes moment.js and AJAX</p>
                         <hr></hr>
                         <p>
 
@@ -32,17 +32,10 @@ let Sched = () => {
                         <ul className="tech">
                             <li>HTML5</li>
                             <li>CSS3</li>
-                            <li>MaterializeCSS</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>Mongoose, MongoDB</li>
-                            <li>Auth0</li>
-                        </ul>
-                        <p>APIs used</p>
-                        <ul className="tech">
-                            <li>AuthenticJobs</li>
-                            <li>GitHub API</li>
+                            <li>Bootstrap</li>
+                            <li>Moment.js</li>
+                            <li>Javascript</li>
+                            <li>jQuery</li>
                         </ul>
                     </div>
                 </div>

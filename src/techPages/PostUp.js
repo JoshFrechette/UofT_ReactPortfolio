@@ -9,7 +9,7 @@ let PostUp = () => {
                 <div className="col">
                     <div>
                         <h1>PostUp Cards</h1>
-                        <p>PostUp Cards is the second team project for the UofT SCS Coding Bootcamp.</p>
+                        <p></p>
                         <a href='https://postup-cards.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
                         <a href='https://github.com/JoshFrechette/PostUp-Cards.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
                     </div>
@@ -19,7 +19,7 @@ let PostUp = () => {
 
                     <div>
                         <h3>Technical Sheet</h3>
-                        <p>I was part of a 4 person team of students tasked with developing an original web application idea that integrated all of the coding concepts that we were taught thus far in the bootcamp.</p>
+                        <p>I was part of a 4 person team of developers tasked with developing an original web application using HandleBars to render content and MySQL to connect to the database.</p>
                         <hr></hr>
                         <p> My initial role in project was project manager and I also had the responsibility of setting up the routes and creating the schema for the MySQL database. I eventually
                             became more hands-on in the overall design of the app and implementing the javascript into the app. This project helped push me out of my comfort zone of working on front-end design and

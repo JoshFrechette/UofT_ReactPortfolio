@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/spec.css";
 import Preview from "../img/JobRocket.gif";
+import github from "../img/GitHub-Mark-Light-32px.png";
 
 let JobRocket = () => {
     return (
@@ -10,11 +11,11 @@ let JobRocket = () => {
                     <div>
                         <h1>JobRocket</h1>
                         <p></p>
-                        <a href='https://michaelhrivnak.github.io/JobRocket/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
-                        <a href='https://github.com/michaelhrivnak/JobRocket.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                        <a href='https://michaelhrivnak.github.io/JobRocket/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Page</button></a>
+                        <a href='https://github.com/michaelhrivnak/JobRocket.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                     </div>
                     <div className="img">
-                        <img src={Preview} alt="gif of the app" />
+                        <img className="preview" src={Preview} alt="gif of the app" />
                     </div>
 
                     <div>

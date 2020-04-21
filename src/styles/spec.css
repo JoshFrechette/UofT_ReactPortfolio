@@ -20,11 +20,10 @@ ul{
     margin-right: .5rem;
 }
 
-.buttonicon {
-    height: 20px;
-    margin-right: .5rem;
-}
-
 .buttons {
     display: flex;
+}
+
+.preview {
+    width: 100%;
 }

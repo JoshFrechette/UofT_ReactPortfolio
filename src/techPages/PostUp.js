@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/spec.css";
 import Preview from "../img/PostUpCards.gif";
+import github from "../img/GitHub-Mark-Light-32px.png";
 
 let PostUp = () => {
     return (
@@ -11,10 +12,10 @@ let PostUp = () => {
                         <h1>PostUp Cards</h1>
                         <p></p>
                         <a href='https://postup-cards.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
-                        <a href='https://github.com/JoshFrechette/PostUp-Cards.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                        <a href='https://github.com/JoshFrechette/PostUp-Cards.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                     </div>
                     <div className="img">
-                        <img src={Preview} alt="gif of the app" />
+                        <img className="preview" src={Preview} alt="gif of the app" />
                     </div>
 
                     <div>

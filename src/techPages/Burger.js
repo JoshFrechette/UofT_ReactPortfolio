@@ -17,12 +17,12 @@ let Burger = () => {
                             <a href='https://joshfdesign-fries-with-that.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={heroku} alt="heroku logo"></img>Heroku Deployment</button></a>
                         </div>
                         <div className="col small-4">
-                            <a href='https://github.com/JoshFrechette/Fries_With_That.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonicon" src={github} alt="github logo"></img>GitHub Repository</button></a>
+                            <a href='https://github.com/JoshFrechette/Fries_With_That.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                         </div>
             </div>
             <div className="row">
                 <div className="col-lg-6 img">
-                    <img src={Preview} alt="gif of the app" />
+                    <img className="preview" src={Preview} alt="gif of the app" />
                 </div>
             </div>
                 <div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/spec.css";
 import Preview from "../img/Planner.gif";
+import github from "../img/GitHub-Mark-Light-32px.png";
 
 let Sched = () => {
     return (
@@ -10,11 +11,11 @@ let Sched = () => {
                     <div>
                         <h1>Work Day Planner</h1>
                         <p></p>
-                        <a href='https://joshfrechette.github.io/DayPlanDreamer/' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Page</button></a>
-                        <a href='https://github.com/JoshFrechette/DayPlanDreamer.git' target="_blank" rel="noopener noreferrer"><button className="button">GitHub Repository</button></a>
+                        <a href='https://joshfrechette.github.io/DayPlanDreamer/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Page</button></a>
+                        <a href='https://github.com/JoshFrechette/DayPlanDreamer.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                     </div>
                     <div className="img">
-                        <img src={Preview} alt="gif of the app" />
+                        <img className="preview" src={Preview} alt="gif of the app" />
                     </div>
 
                     <div>

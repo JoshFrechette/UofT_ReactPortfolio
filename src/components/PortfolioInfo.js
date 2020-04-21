@@ -20,7 +20,7 @@ let portfolioInfo = () => {
 
                 <div class="grid-container fluid">
                     <div class="grid-x grid-margin-x">
-                        <div class="cell small-4">
+                        <div class="cell small-6">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Jobs&#38;Dragons</h3>
@@ -36,7 +36,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-4">
+                        <div class="cell small-6">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>PostUp Cards</h3>
@@ -53,7 +53,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-4">
+                        <div class="cell small-6">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>JobRocket</h3>
@@ -69,7 +69,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-4">
+                        <div class="cell small-6">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Weather Dashboard</h3>
@@ -84,7 +84,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-4">
+                        <div class="cell small-6">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Work Day Planner</h3>
@@ -99,7 +99,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-4">
+                        <div class="cell small-6">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Fries With That?</h3>

@@ -15,11 +15,11 @@ let Skills = () => {
                 <hr></hr>
             </div>
             <div className="row skillview">
-                <div className="col"><img src= {reactLogo} alt="react logo"></img></div>
-                <div className="col"><img src= {nodeLogo} alt="node.js logo"></img></div>
-                <div className="col"><img src= {htmlLogo} alt="html5 logo"></img></div>
-                <div className="col"><img src= {mongoLogo} alt="mongoDB logo"></img></div>
-                <div className="col"><img src= {jsLogo} alt="javascript logo"></img></div>
+                <div className="col"><img className="skillLogo" src= {reactLogo} alt="react logo"></img></div>
+                <div className="col"><img className="skillLogo" src= {nodeLogo} alt="node.js logo"></img></div>
+                <div className="col"><img className="skillLogo" src= {htmlLogo} alt="html5 logo"></img></div>
+                <div className="col"><img className="skillLogo" src= {mongoLogo} alt="mongoDB logo"></img></div>
+                <div className="col"><img className="skillLogo" src= {jsLogo} alt="javascript logo"></img></div>
             </div>
         </div>
     )

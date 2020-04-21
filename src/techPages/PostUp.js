@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/spec.css";
 import Preview from "../img/PostUpCards.gif";
+import heroku from "../img/heroku-logo-solid-white-transparent.png";
 import github from "../img/GitHub-Mark-Light-32px.png";
 
 let PostUp = () => {
@@ -11,7 +12,7 @@ let PostUp = () => {
                     <div>
                         <h1>PostUp Cards</h1>
                         <p></p>
-                        <a href='https://postup-cards.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button">Heroku Deployment</button></a>
+                        <a href='https://postup-cards.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={heroku} alt="heroku logo"></img>Heroku Deployment</button></a>
                         <a href='https://github.com/JoshFrechette/PostUp-Cards.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                     </div>
                     <div className="img">

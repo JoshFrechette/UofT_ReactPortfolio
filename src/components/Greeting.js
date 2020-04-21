@@ -5,8 +5,9 @@ export default class Greeting extends Component {
     render() {
         return (
             <div className="hi">
-                <p className="greeting">hello.</p>
+                <p className="fill">hello.</p>
             </div>
+            
         )
     }
 }

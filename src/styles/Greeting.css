@@ -1,12 +1,42 @@
 .hi {
-    text-align: center;
-    margin-top: 0%;
-    height: 650px;
-}
-
-.greeting {
     font-size: 2000%;
     bottom: 10rem;
     font-style: italic;
+    text-align: center;
+    margin-top: 0%;
+    height: 650px;
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;  */
+    /* background-color: linear-gradient(50deg, #ee9032, #f16d52, #ec4a77, #a063aa, #7963aa, #4b6eb5, #109aaf, #07b89f, #6bb97f);
+    animation: movinggradient 5s ease infinite;
+    background-size: 200%; */
+}
 
+/* .greeting {
+    font-size: 2000%;
+    bottom: 10rem;
+    font-style: italic;
+    background-color: linear-gradient(50deg, #ee9032, #f16d52, #ec4a77, #a063aa, #7963aa, #4b6eb5, #109aaf, #07b89f, #6bb97f);
+    animation: movinggradient 5s ease infinite;
+    background-size: 200%;
+} */
+
+.fill {
+    background: linear-gradient(50deg, #ee9032, #f16d52, #ec4a77, #a063aa, #7963aa, #4b6eb5, #109aaf, #07b89f, #6bb97f);
+    animation: movinggradient 5s ease infinite;
+    background-size: 200%; 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes movinggradient {
+    0%{
+        background-position:0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    } 0% {
+        background-position: 0% 50%;
+    }
 }

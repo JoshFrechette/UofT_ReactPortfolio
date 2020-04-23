@@ -29,7 +29,7 @@ let portfolioInfo = () => {
                                 <div className="card-section">
                                     <p>Jobs&#38;Dragons is a web application that gamifies the job search and career development process.</p>
                                     <div className="row techlink">
-                                       <Link to="/jandd"><button className="button">Tech Spec Page</button></Link>
+                                       <Link to="/jandd" target="_blank" rel="noopener noreferrer"><button className="button">Tech Spec Page</button></Link>
 
                                     </div>
                                 </div>
@@ -47,7 +47,7 @@ let portfolioInfo = () => {
                                         digital basketball cards.
                                     </p>
                                     <div className="row techlink">
-                                    <Link to="/postup"><button className="button">Tech Spec Page</button></Link>
+                                    <Link to="/postup" target="_blank" rel="noopener noreferrer"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ let portfolioInfo = () => {
                                     <p>JobRocket is a web application that allows the user to search for a job in their area and view its location.
                                     </p>
                                     <div className="row techlink">
-                                    <Link to="/jobrocket"><button className="button">Tech Spec Page</button></Link>
+                                    <Link to="/jobrocket" target="_blank" rel="noopener noreferrer"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ let portfolioInfo = () => {
                                 <div className="card-section">
                                     <p>The Weather Dashboard app lets the user look up current weather and forecasts for selected cities.</p>
                                     <div className="row techlink">
-                                    <Link to="/dashboard"><button className="button">Tech Spec Page</button></Link>
+                                    <Link to="/dashboard" target="_blank" rel="noopener noreferrer"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ let portfolioInfo = () => {
                                 <div className="card-section">
                                     <p>Work Day Planner is a productivity app that let's the user plan out their 9-5 workday.</p>
                                     <div className="row techlink">
-                                    <Link to="/planner"><button className="button">Tech Spec Page</button></Link>
+                                    <Link to="/planner" target="_blank" rel="noopener noreferrer"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ let portfolioInfo = () => {
                                 <div className="card-section">
                                     <p>Fries With That? allows the user to log multiple burger orders and change their state once they've been eaten.</p>
                                      <div className="row techlink">
-                                    <Link to="/burger"><button className="button">Tech Spec Page</button></Link>
+                                    <Link to="/burger" target="_blank" rel="noopener noreferrer"><button className="button">Tech Spec Page</button></Link>
                                     </div>
                                 </div>
                             </div>

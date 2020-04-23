@@ -27,7 +27,7 @@ let Burger = () => {
             </div>
                 <div>
                     <h3>Technical Sheet</h3>
-                    <p>Solo project, with an emphasis on ORMs, CRUDs, mySQL and Handlebars. The application allows the usser to enter any choice of burger and change it's status when it has been eaten.</p>
+                    <p>Solo project, with an emphasis on ORMs, CRUDs, mySQL and Handlebars. The application allows the user to enter any choice of burger and change it's status when it has been eaten.</p>
                     <hr></hr>
                     <p>
 

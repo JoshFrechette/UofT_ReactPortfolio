@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/Greeting.css";
 
 let Greeting = () => {
@@ -11,7 +11,7 @@ let Greeting = () => {
                     <p className="fill">hello.</p>
                 </div>
             </div>
-            <div className="cell arrow bounce"><i class="fas fa-angle-double-down"></i></div>
+            <div className="cell auto arrow bounce"><i class="fas fa-angle-double-down" id="down"></i></div>
         </div>
     )
 }

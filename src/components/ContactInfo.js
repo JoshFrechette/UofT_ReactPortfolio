@@ -8,7 +8,7 @@ let ContactInfo = () => {
         <div className="grid contact" id="spacer">
             <div className="grid-x">
                 <div className="cell">
-                    <h2 id="contact-me">Reach Out</h2>
+                    <h2 className="sectionhead" id="contact-me">Reach Out</h2>
                     <hr></hr>
                 </div>
             </div>
@@ -21,7 +21,7 @@ let ContactInfo = () => {
                 </div>
 
                 <div className="cell small-12 medium-6">
-                    <p className="reach-out"><i class="fas fa-mobile-alt"></i> 647.302.0661</p>
+                    <p className="reach-out"><i className="fas fa-mobile-alt"></i><a className="reach-out" href="tel:647-302-0661">647.302.0661</a></p>
                 </div>
             </div>
         </div>

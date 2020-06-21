@@ -8,7 +8,7 @@ let bioInfo = () => {
     return (
         <div className="grid bio align-center">
             <div className="grid grid-padding-x">
-                <div className="cell"><h2 id="about-me">About Me</h2></div>
+                <div className="cell"><h2 className="sectionhead" id="about-me">About Me</h2></div>
                 <hr></hr>
             </div>
 
@@ -41,8 +41,8 @@ let bioInfo = () => {
                         Using my combined expertise to create an immersive user experience, I'm excited to join a team of like-minded individuals who are striving to leave their mark on the web.
                             </p>
 
-                    <i className="far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a>
-
+                <div className="cell"> <i className="pdf far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a></div>
+                   
                 </div>
             </div>
         </div>

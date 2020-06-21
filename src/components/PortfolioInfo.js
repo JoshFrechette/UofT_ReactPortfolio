@@ -15,7 +15,7 @@ let portfolioInfo = () => {
             <div className="grid-x grid-padding-x">
             <div className="portfolio">
                 <div>
-                    <h2 id="my-portfolio">My Work</h2>
+                    <h2 className="sectionhead" id="my-portfolio">My Work</h2>
                     <hr></hr>
                 </div>
 

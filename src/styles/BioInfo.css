@@ -7,8 +7,10 @@
     text-align: center;
 }
 .bio {
+    background-color:  #109aaf;
     margin-bottom: 5rem;
     text-align: left;
+    padding: 1rem;
 }
 
 .profile {
@@ -25,4 +27,14 @@
 
 #about-me {
     text-align: center;
+}
+
+.resume {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pdf {
+    color: red;
+    font-size: 2rem;
 }

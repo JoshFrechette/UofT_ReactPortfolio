@@ -18,7 +18,7 @@ export default class ContactInfo extends Component {
                             <i className="far fa-paper-plane fa-fw"></i> joshfdesign@gmail.com</a>
                     </div>
                     <div className="col">
-                        <p className="reach-out"><i class="fas fa-mobile-alt"></i> 647.302.0661</p>
+                        <p className="reach-out"><i className="fas fa-mobile-alt"></i> 647.302.0661</p>
                     </div>
                 </div>
             </div>

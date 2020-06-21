@@ -4,8 +4,10 @@ import "../styles/Greeting.css";
 export default class Greeting extends Component {
     render() {
         return (
-            <div className="hi">
+            <div className="grid-x hi">
+                <div className="cell auto">
                 <p className="fill">hello.</p>
+                </div>
             </div>
             
         )

@@ -4,6 +4,10 @@
     display: inline;   
 } */
 
+.header {
+    background-color: dimgrey;
+}
+
 .title-bar {
     position: fixed;
     background: 0;
@@ -24,6 +28,22 @@
 }
 
 .navlinks {
+    size: 200px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style-type: none;
     margin-right: 1rem;
+}
+
+.sitename {
+    color: black;
+    size: 150%;
+    list-style-type: none;
+}
+
+.nav {
+
+    color: white !important;
+    float: right;
+    /* position: relative; */
 }

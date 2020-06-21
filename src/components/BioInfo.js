@@ -7,15 +7,15 @@ import CV from "../img/JoshuaFrechette_Resume.pdf";
 let bioInfo = () => {
 
     return (
-        <div className="container bio">
-            <div className="grid-x">
+        <div className="bio">
+            <div className="grid-x grid-padding-x">
                 <h2 id="about-me">About Me</h2>
                 <hr></hr>
             </div>
 
-            <div className="grid-x">
+            <div className="grid-x grid-padding-x">
 
-                <div className="grid-y" id="content">
+                <div className="grid-y grid-padding" id="content">
 
                     <div className="small-12 medium-2 cell stats">
                         <img src={BioPic} className="profile" alt="Professional profile of Josh Frechette"></img>
@@ -25,7 +25,7 @@ let bioInfo = () => {
                     </div>
                 </div>
 
-                <div className="small-12 medium-8 cell blurb">
+                <div className="small-12 medium-6 cell blurb">
 
                     <p>
                         Front End Developer with a certificate in Full Stack Web Development from the University of Toronto. Experience as a Graphic Designer

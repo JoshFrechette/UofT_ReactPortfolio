@@ -12,15 +12,16 @@ import Burger from "../img/fries_with_that.png";
 
 let portfolioInfo = () => {
         return (
+            <div className="grid-x grid-padding-x">
             <div className="portfolio">
                 <div>
                     <h2 id="my-portfolio">My Work</h2>
                     <hr></hr>
                 </div>
 
-                <div class="grid-container fluid">
-                    <div class="grid-x grid-margin-x">
-                        <div class="cell small-6">
+                <div className="grid-container fluid">
+                    <div className="grid-x grid-margin-x">
+                        <div className="cell small-12 medium-6 large-3">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Jobs&#38;Dragons</h3>
@@ -36,7 +37,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-6">
+                        <div className="cell small-12 medium-6 large-3">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>PostUp Cards</h3>
@@ -53,7 +54,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-6">
+                        <div className="cell small-12 medium-6 large-3">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>JobRocket</h3>
@@ -69,7 +70,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-6">
+                        <div className="cell small-12 medium-6 large-3">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Weather Dashboard</h3>
@@ -84,7 +85,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-6">
+                        <div className="cell small-12 medium-6 large-3">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Work Day Planner</h3>
@@ -99,7 +100,7 @@ let portfolioInfo = () => {
                             </div>
                         </div>
 
-                        <div class="cell small-6">
+                        <div className="cell small-12 medium-6 large-3">
                             <div className="card">
                                 <div className="card-divider">
                                     <h3>Fries With That?</h3>
@@ -115,7 +116,7 @@ let portfolioInfo = () => {
                         </div>
                     </div>
                 </div>
-
+                </div>
 
             </div>
         )

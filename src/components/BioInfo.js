@@ -41,7 +41,7 @@ let bioInfo = () => {
                         Using my combined expertise to create an immersive user experience, I'm excited to join a team of like-minded individuals who are striving to leave their mark on the web.
                             </p>
 
-                <div className="cell"> <i className="pdf far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a></div>
+                <div className="cell "> <i className="pdf far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a></div>
                    
                 </div>
             </div>

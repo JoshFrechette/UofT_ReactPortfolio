@@ -12,10 +12,10 @@ import Burger from "../img/fries_with_that.png";
 
 let portfolioInfo = () => {
         return (
-            <div className="grid-x grid-padding-x">
-            <div className="portfolio">
+            <div className="grid-x grid-padding-x portfolio">
+            <div className="grid">
                 <div>
-                    <h2 className="sectionhead" id="my-portfolio">My Work</h2>
+                    <h2 className="sectionhead"id="my-portfolio">My Work</h2>
                     <hr></hr>
                 </div>
 

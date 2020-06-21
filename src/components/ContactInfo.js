@@ -17,11 +17,12 @@ let ContactInfo = () => {
 
                 <div className="cell small-12 medium-6">
                     <a className="reach-out" href="mailto:joshfdesign@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <i className="far fa-paper-plane fa-fw"></i> joshfdesign@gmail.com</a>
+                        <i className="far fa-paper-plane fa-fw"></i>  joshfdesign@gmail.com</a>
                 </div>
 
                 <div className="cell small-12 medium-6">
-                    <p className="reach-out"><i className="fas fa-mobile-alt"></i><a className="reach-out" href="tel:647-302-0661">647.302.0661</a></p>
+                <a className="reach-out" href="tel:1-647-302-0661">
+                        <i className="fas fa-mobile-alt"></i>  647.302.0661</a>
                 </div>
             </div>
         </div>

@@ -1,3 +1,13 @@
+.sectionhead {
+    font-style: oblique;
+}
+
+.header {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2vw;
+}
+
 // @include foundation-everything(true);
 
 $global-flexbox: true;

@@ -1,12 +1,13 @@
 import React from 'react';
 import "../styles/Header.css";
 import "../styles/styles.scss";
+// import ResponsiveNavigation from  "./RespNav.js"; this is not working...
 
 let Header = () => {
   return (
 
     <div className="cell shrink header medium-cell-block-container">
-      <div className="grid-x grid-padding-x">
+      {/* <div className="grid-x grid-padding-x"> */}
 
         {/* <div className="title-bar align-right" dataResponsiveToggle="example-menu" dataHideFor="medium">
           <button className="menu-icon" type="button" dataToggle="example-menu"></button>
@@ -32,8 +33,8 @@ let Header = () => {
           </div>
 
         </div>
-
-      </div>
+{/* 
+      </div> */}
     </div>
   )
 }

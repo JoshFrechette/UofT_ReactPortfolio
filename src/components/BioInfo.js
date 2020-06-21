@@ -1,5 +1,4 @@
 import React from "react";
-import Foundation from 'react-foundation';
 import "../styles/BioInfo.css";
 import BioPic from "../img/JF-LinkedIn.jpg";
 import CV from "../img/JoshuaFrechette_Resume.pdf";
@@ -7,13 +6,13 @@ import CV from "../img/JoshuaFrechette_Resume.pdf";
 let bioInfo = () => {
 
     return (
-        <div className="bio">
-            <div className="grid-x grid-padding-x">
-                <h2 id="about-me">About Me</h2>
+        <div className="grid bio align-center">
+            <div className="grid grid-padding-x">
+                <div className="cell"><h2 id="about-me">About Me</h2></div>
                 <hr></hr>
             </div>
 
-            <div className="grid-x grid-padding-x">
+            <div className="grid-x grid-padding-x align-center">
 
                 <div className="grid-y grid-padding" id="content">
 

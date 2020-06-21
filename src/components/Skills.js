@@ -9,17 +9,17 @@ import jsLogo from "../img/240px-JavaScript-logo.png";
 let Skills = () => {
 
     return (
-        <div className="container skills">
-            <div className="row">
+        <div className="grid skills">
+            <div className="cell ">
                 <h2 id="skills">Skills</h2>
                 <hr></hr>
             </div>
-            <div className="row skillview">
-                <div className="col"><img className="skillLogo" src= {reactLogo} alt="react logo"></img></div>
-                <div className="col"><img className="skillLogo" src= {nodeLogo} alt="node.js logo"></img></div>
-                <div className="col"><img className="skillLogo" src= {htmlLogo} alt="html5 logo"></img></div>
-                <div className="col"><img className="skillLogo" src= {mongoLogo} alt="mongoDB logo"></img></div>
-                <div className="col"><img className="skillLogo" src= {jsLogo} alt="javascript logo"></img></div>
+            <div className="grid-x align-center">
+                <div className="skill cell small-6 medium-4 large-2"><img className="skillLogo" src= {reactLogo} alt="react logo"></img></div>
+                <div className="skill cell small-6 medium-4 large-2"><img className="skillLogo" src= {nodeLogo} alt="node.js logo"></img></div>
+                <div className="skill cell small-6 medium-4 large-2"><img className="skillLogo" src= {htmlLogo} alt="html5 logo"></img></div>
+                <div className="skill cell small-6 medium-4 large-2"><img className="skillLogo" src= {mongoLogo} alt="mongoDB logo"></img></div>
+                <div className="skill cell small-6 medium-4 large-2"><img className="skillLogo" src= {jsLogo} alt="javascript logo"></img></div>
             </div>
         </div>
     )

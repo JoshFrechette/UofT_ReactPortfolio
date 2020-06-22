@@ -1,6 +1,4 @@
 .card {
-    /* width: 400px;
-    height: 600px; */
     min-width: 250px;
     margin: 1rem;
 }
@@ -24,30 +22,48 @@
 }
 
 .portfolioimg {
-    height: 30vh;
-    width: 30vw;
+    width: 100%;
+    height: 100%;
 }
 
 #my-portfolio {
     text-align: center;
 }
 
-.jandd {
+/* .jandd {
     background-image: url("../img/J&D_Logo_Port.png");
     background-repeat: no-repeat;
     background: #ec4a77;
     width: 100%;
     height: 100%;
-}
+} */
 
-.jandd:hover {
+.initial {
+    position: relative;
+  }
+
+.jandd-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
     background-image: url("../img/Jobs&Dragons.png");
-}
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+  }
 
-.postup {
+  .initial:hover .jandd-overlay {
+      opacity:1;
+  }
+
+/* .postup {
     background-image: url("../img/PopUpCards_Project2.png");
 }
 
 .postup:hover {
     background-image: url("../img/Jobs&Dragons.png");
-}
+} */ 

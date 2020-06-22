@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "../styles/PortfolioInfo.css";
 import "../styles/styles.scss";
 import Dragons from "../img/J&D_Logo_PortAlt.png";
-import PostUp from "../img/PopUpCards_Project2.png";
+import PostUp from "../img/Postup_Logo_Port.png";
 import JobRocket from "../img/JobRocket.png";
 import WeatherDash from "../img/WeatherDash.png";
 import Sched from "../img/Planner.png";
@@ -26,8 +26,8 @@ let portfolioInfo = () => {
                         <div className="cell small-12 medium-6 large-4">
                             <div className="card">
                                 <div className="initial">
-                                <img src={Dragons} className="jandd portfolioimg" alt="Screenshot of app, Jobs&#38;Dragons"></img>
-                                <div className="jandd-overlay"></div>
+                                    <img src={Dragons} className="jandd portfolioimg" alt="Screenshot of app, Jobs&#38;Dragons"></img>
+                                    <div className="janddhover overlay"></div>
                                 </div>
                                 <div className="card-section">
                                     <h5>Jobs&#38;Dragons</h5>
@@ -41,11 +41,12 @@ let portfolioInfo = () => {
 
                         <div className="cell small-12 medium-6 large-4">
                             <div className="card">
-                                <div className="card-divider">
-                                    <h3>PostUp Cards</h3>
+                                <div className="initial">
+                                    <img src={PostUp} className="portfolioimg" alt="Screenshot of app, PostUpCards"></img>
+                                    <div className="postuphover overlay"></div>
                                 </div>
-                                <img src={PostUp} className="portfolioimg" alt="Screenshot of app, PostUpCards"></img>
                                 <div className="card-section">
+                                    <h5>PostUp Cards</h5>
                                     <p>PostUp Cards is a web application that allows the user to create and collect
                                     digital basketball cards.
                                     </p>

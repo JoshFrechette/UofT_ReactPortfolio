@@ -30,19 +30,21 @@
     text-align: center;
 }
 
-/* .jandd {
-    background-image: url("../img/J&D_Logo_Port.png");
-    background-repeat: no-repeat;
-    background: #ec4a77;
-    width: 100%;
-    height: 100%;
-} */
-
 .initial {
     position: relative;
   }
 
-.jandd-overlay {
+.janddhover {
+    background-image: url("../img/Jobs&Dragons.png");
+    background-size: 100%;
+  }
+
+.postuphover {
+    background-image: url("../img/PopUpCards_Project2.png");
+    background-size: 100%;
+  }
+
+  .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -50,20 +52,15 @@
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-image: url("../img/Jobs&Dragons.png");
-    background-size: 100%;
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat;
   }
 
-  .initial:hover .jandd-overlay {
+  .initial:hover .overlay, .jannddhover .postuphover {
       opacity:1;
   }
 
-/* .postup {
-    background-image: url("../img/PopUpCards_Project2.png");
-}
-
-.postup:hover {
-    background-image: url("../img/Jobs&Dragons.png");
-} */ 
+  /* .initial:hover .overlay .postuphover {
+    opacity:1;
+} */

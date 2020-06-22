@@ -23,6 +23,31 @@
     width: 100%;
 }
 
+.portfolioimg {
+    height: 30vh;
+    width: 30vw;
+}
+
 #my-portfolio {
     text-align: center;
+}
+
+.jandd {
+    background-image: url("../img/J&D_Logo_Port.png");
+    background-repeat: no-repeat;
+    background: #ec4a77;
+    width: 100%;
+    height: 100%;
+}
+
+.jandd:hover {
+    background-image: url("../img/Jobs&Dragons.png");
+}
+
+.postup {
+    background-image: url("../img/PopUpCards_Project2.png");
+}
+
+.postup:hover {
+    background-image: url("../img/Jobs&Dragons.png");
 }

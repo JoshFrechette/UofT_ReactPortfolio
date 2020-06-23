@@ -4,7 +4,7 @@ import "../styles/PortfolioInfo.css";
 import "../styles/styles.scss";
 import Dragons from "../img/J&D_Logo_PortAlt.png";
 import PostUp from "../img/Postup_Logo_Port.png";
-import JobRocket from "../img/JobRocket.png";
+import JobRocket from "../img/JB_Logo_Port.png";
 import WeatherDash from "../img/WeatherDash.png";
 import Sched from "../img/Planner.png";
 import Burger from "../img/fries_with_that.png";
@@ -59,13 +59,13 @@ let portfolioInfo = () => {
 
                         <div className="cell small-12 medium-6 large-4">
                             <div className="card">
-                                <div className="card-divider">
-                                    <h3>JobRocket</h3>
-                                </div>
+                                <div className="initial">
                                 <img src={JobRocket} className="portfolioimg" alt="Screenshot of app, JobRocket"></img>
+                                <div className="jobrockethover overlay"></div>
+                                </div>
                                 <div className="card-section">
-                                    <p>JobRocket is a web application that allows the user to search for a job in their area and view its location.
-                                    </p>
+                                    <h5>JobRocket</h5>
+                                    <p>JobRocket is a web application that allows the user to search for a job in their area and view its location.</p>
                                     <div className="row techlink">
                                         <Link to="/jobrocket" target="_blank" rel="noopener noreferrer"><button className="button">Tech Spec Page</button></Link>
                                     </div>

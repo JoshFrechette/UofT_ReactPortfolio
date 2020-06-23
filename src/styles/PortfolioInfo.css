@@ -44,6 +44,11 @@
     background-size: 100%;
   }
 
+  .jobrockethover {
+    background-image: url("../img/JobRocket.png");
+    background-size: 100%;
+  }
+
   .overlay {
     position: absolute;
     top: 0;
@@ -57,7 +62,7 @@
     background-repeat: no-repeat;
   }
 
-  .initial:hover .overlay, .jannddhover .postuphover {
+  .initial:hover .overlay, .jannddhover .postuphover .jobrockethover {
       opacity:1;
   }
 

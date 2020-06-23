@@ -16,9 +16,13 @@ let Header = () => {
 
         <div className="top-bar" >
 
-        <div className="top-bar-left">
+        <div className="top-bar-left ">
           <img src="TwistedPixels.png" id="brand-logo" href="#" alt="JFD Logo"></img>
         </div>
+
+        {/* <div className="top-bar-middle align-middle">
+          <h3 className="companyname">Josh Frechette Design</h3>
+        </div> */}
 
           <div className="top-bar-right align-right" id="example-menu">
             {/* <ul className="menu" dataDropdownMenu> */}

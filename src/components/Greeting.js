@@ -11,7 +11,7 @@ let Greeting = () => {
                     <p className="fill">hello.</p>
                 </div>
             </div>
-            <div className="cell auto arrow bounce"><a href="/#about-me"><i className="fas fa-angle-double-down" id="down"></i></a></div>
+            {/* <div className="cell auto arrow bounce"><a href="/#about-me"><i className="fas fa-angle-double-down" id="down"></i></a></div> */}
         </div>
     )
 }

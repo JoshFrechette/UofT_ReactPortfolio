@@ -16,7 +16,7 @@ let Header = () => {
 
         <div className="top-bar" >
 
-        <div className="top-bar-left ">
+        <div className="top-bar-left">
           <img src="TwistedPixels.png" id="brand-logo" href="#" alt="JFD Logo"></img>
         </div>
 

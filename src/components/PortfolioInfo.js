@@ -5,9 +5,9 @@ import "../styles/styles.scss";
 import Dragons from "../img/J&D_Logo_PortAlt.png";
 import PostUp from "../img/Postup_Logo_Port.png";
 import JobRocket from "../img/JB_Logo_Port.png";
-import WeatherDash from "../img/JB_Logo_Port.png";
-import Sched from "../img/JB_Logo_Port.png";
-import Burger from "../img/JB_Logo_Port.png";
+import WeatherDash from "../img/Weather_Logo_Port.png";
+import Sched from "../img/WDP_Logo_Port.png";
+import Burger from "../img/FWT_Logo_Port.png";
 
 
 let portfolioInfo = () => {

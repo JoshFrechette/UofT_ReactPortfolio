@@ -6,7 +6,7 @@ import CV from "../img/JoshuaFrechette_Resume.pdf";
 let bioInfo = () => {
 
     return (
-        <div className="grid bio align-center">
+        <div className="grid-x bio align-center sectionbg">
             <div className="grid grid-padding-x">
                 <div className="cell"><h2 className="sectionhead" id="about-me">About Me</h2></div>
                 <hr></hr>

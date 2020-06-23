@@ -9,7 +9,7 @@ import jsLogo from "../img/240px-JavaScript-logo.png";
 let Skills = () => {
 
     return (
-        <div className="grid skills">
+        <div className="grid skills sectionbg">
                         <div className="grid grid-padding-x">
             <div className="cell ">
                 <h2 className="sectionhead" id="skills">Skills</h2>

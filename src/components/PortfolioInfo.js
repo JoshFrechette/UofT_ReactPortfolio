@@ -12,7 +12,7 @@ import Burger from "../img/FWT_Logo_Port.png";
 
 let portfolioInfo = () => {
     return (
-        <div className="grid  portfolio align-center">
+        <div className="grid  portfolio align-center sectionbg">
             <div className="grid grid-padding-x">
                 <div className="cell"><h2 className="sectionhead" id="my-portfolio">My Work</h2></div>
                 <hr></hr>

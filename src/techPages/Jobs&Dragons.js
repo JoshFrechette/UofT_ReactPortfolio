@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/spec.css";
-import Preview from "../img/dragons.gif";
+import Preview from "../img/J&D_Clip.gif";
 import heroku from "../img/heroku-logo-solid-white-transparent.png";
 import github from "../img/GitHub-Mark-Light-32px.png";
 
@@ -14,6 +14,7 @@ let Dragons = () => {
                         <a href='https://jobs-and-dragons.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={heroku} alt="heroku logo"></img>Heroku Deployment</button></a>
                         <a href='https://github.com/Winyumi/jobs-and-dragons' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                     </div>
+
                     <div className="img">
                         <img className="preview" src={Preview} alt="gif of the app" />
                     </div>

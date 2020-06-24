@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/spec.css";
-import Preview from "../img/PostUpCards.gif";
+import Preview from "../img/PostUp_Clip.gif";
 import heroku from "../img/heroku-logo-solid-white-transparent.png";
 import github from "../img/GitHub-Mark-Light-32px.png";
 

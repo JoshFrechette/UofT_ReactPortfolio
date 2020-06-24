@@ -5,10 +5,9 @@ import github from "../img/GitHub-Mark-Light-32px.png";
 
 let WeatherDash = () => {
     return (
-        <div className="container specs">
-            <div className="row project">
-                <div className="col">
-                    <div>
+        <div className="grid-x grid-margin-x small-margin-collapse align-center">
+            <div className="cell small-12 medium-8 project">
+                <div className="techhead">
                         <h1>Weather Dashboard</h1>
                         <p></p>
                         <a href='https://joshfrechette.github.io/WeatherDashboard/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Page</button></a>
@@ -18,7 +17,7 @@ let WeatherDash = () => {
                         <img className="preview" src={Preview} alt="gif of the app" />
                     </div>
 
-                    <div>
+                    <div className="techbody">
                         <h3>Technical Sheet</h3>
                         <p>Weather Dashboard is a solo project that is designed for travellers to search for current weather and forecasts of searched destinations.</p>
                         <hr></hr>
@@ -39,12 +38,11 @@ let WeatherDash = () => {
                         </ul>
                         <p>APIs used</p>
                         <ul className="tech">
-                            <li>OpenWeather</li>
+                            <li><a className="links" href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer">OpenWeather</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

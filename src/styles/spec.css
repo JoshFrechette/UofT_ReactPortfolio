@@ -6,6 +6,8 @@
 }
 
 .project {
+    margin: 2rem 0rem 2rem 0rem;
+    max-width: 60rem;
     padding: 1rem 1rem 1rem 1rem;
     color: white;
     background-color: rgba(76, 76, 76, 0.75);
@@ -13,6 +15,12 @@
 
 ul{
     list-style-type: circle!important;
+    font-weight: bolder;
+}
+
+.techhead {
+    background-color: #00388c90;
+    text-align: center;
 }
 
 .buttonlogo {
@@ -26,4 +34,16 @@ ul{
 
 .preview {
     width: 100%;
+}
+ .links {
+    color: white;
+ }
+
+ .links:hover {
+     color: #00388c;
+ }
+
+h1, h3 , p {
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
 }

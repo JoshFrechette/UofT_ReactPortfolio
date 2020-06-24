@@ -6,7 +6,7 @@ import CV from "../img/JoshuaFrechette_Resume.pdf";
 let bioInfo = () => {
 
     return (
-        <div className="grid-x bio align-center sectionbg">
+        <div className="grid bio align-center sectionbg">
             <div className="grid grid-padding-x">
                 <div className="cell"><h2 className="sectionhead" id="about-me">About Me</h2></div>
                 <hr></hr>
@@ -14,13 +14,14 @@ let bioInfo = () => {
 
             <div className="grid-x grid-padding-x align-center">
 
-                <div className="grid-y grid-padding" id="content">
+                <div className="grid grid-padding" id="content">
 
-                    <div className="small-12 medium-2 cell stats">
+                    <div className="small-12 medium-6 cell stats">
                         <img src={BioPic} className="profile" alt="Professional profile of Josh Frechette"></img>
                         <h4>Josh Fr&eacute;chette</h4>
                         <p>Front End Web Developer<br></br>Graphic Designer</p>
                         <p>Toronto, Ontario, Canada</p>
+                        <div className=" button secondary "> <i className="pdf far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a></div>
                     </div>
                 </div>
 
@@ -41,7 +42,7 @@ let bioInfo = () => {
                         Using my combined expertise to create an immersive user experience, I'm excited to join a team of like-minded individuals who are striving to leave their mark on the web.
                             </p>
 
-                <div className="cell "> <i className="pdf far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a></div>
+
                    
                 </div>
             </div>

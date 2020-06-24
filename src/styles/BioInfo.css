@@ -1,21 +1,23 @@
 #content {
-    display: flex;
-    justify-content: space-between;
+    background-color: #e6e6e6;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 .stats {
     text-align: center;
+    padding: .5rem;
 }
 .bio {
     /* background-color:  #109aaf90; */
     margin-bottom: 5rem;
     text-align: left;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .profile {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 20rem;
+    max-height: 20rem;
     /* float: left; */
     /* padding-right: 1rem; */
     /* border-radius: 50%; */

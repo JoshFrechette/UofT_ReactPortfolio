@@ -6,17 +6,17 @@ import github from "../img/GitHub-Mark-Light-32px.png";
 
 let PostUp = () => {
     return (
-        <div className="container specs">
-            <div className="row project">
-                <div className="col">
-                    <div>
+        <div className="grid-x grid-margin-x small-margin-collapse align-center">
+             {/* <div className="grid project align-center"> */}
+                <div className="cell small-12 medium-8 project">
+                    <div className="techhead">
                         <h1>PostUp Cards</h1>
                         <p></p>
                         <a href='https://postup-cards.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={heroku} alt="heroku logo"></img>Heroku Deployment</button></a>
                         <a href='https://github.com/JoshFrechette/PostUp-Cards.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                     </div>
                     <div className="img">
-                        <img className="preview" src={Preview} alt="gif of the app" />
+                        <img className="preview" src={Preview} alt="gif of PostUp Cards" />
                     </div>
 
                     <div>
@@ -44,13 +44,13 @@ let PostUp = () => {
                         </ul>
                         <p>APIs used</p>
                         <ul className="tech">
-                            <li>Ball Don't Lie</li>
-                            <li>Giphy</li>
+                            <li><a className="links" href="https://www.balldontlie.io/#introduction" target="_blank" rel="noopener noreferrer">Ball Don't Lie</a></li>
+                            <li><a className="links" href="https://developers.giphy.com/" target="_blank" rel="noopener noreferrer">Giphy</a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+            {/* </div> */}
+         </div>
     )
 }
 

@@ -18,7 +18,7 @@ let bioInfo = () => {
 
                     <div className="small-12 medium-6 cell stats">
                         <img src={BioPic} className="profile" alt="Professional profile of Josh Frechette"></img>
-                        <h4>Josh Fr&eacute;chette</h4>
+                        <h4 className="ownername">Josh Fr&eacute;chette</h4>
                         <p>Front End Web Developer<br></br>Graphic Designer</p>
                         <p>Toronto, Ontario, Canada</p>
                         <div className=" button secondary "> <i className="pdf far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a></div>

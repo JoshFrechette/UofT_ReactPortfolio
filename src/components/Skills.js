@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Skills.css";
-import reactLogo from "../img/logo192.png";
-import nodeLogo from "../img/nodejs.png";
-import htmlLogo from "../img/HTML5_Badge_128.png";
-import mongoLogo from "../img/MongoDB_Logo_FullColorBlack_RGB.png";
-import jsLogo from "../img/240px-JavaScript-logo.png";
+// import reactLogo from "../img/logo192.png";
+// import nodeLogo from "../img/nodejs.png";
+// import htmlLogo from "../img/HTML5_Badge_128.png";
+// import mongoLogo from "../img/MongoDB_Logo_FullColorBlack_RGB.png";
+// import jsLogo from "../img/240px-JavaScript-logo.png";
 
 let Skills = () => {
 

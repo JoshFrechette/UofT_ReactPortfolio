@@ -48,7 +48,6 @@ let PostUp = () => {
                     </ul>
                 </div>
             </div>
-            {/* </div> */}
         </div>
     )
 }

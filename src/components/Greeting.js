@@ -1,13 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/Greeting.css";
 
-export default class Greeting extends Component {
-    render() {
-        return (
-            <div className="hi">
-                <p className="fill">hello.</p>
+let Greeting = () => {
+
+    return (
+
+        <div className="grid-x">
+            <div className="cell auto greet">
+                <div className="grid-x hi">
+                    <div className="cell">
+                        <p className="fill">hello.</p>
+                    </div>
+                </div>
+                <div className="cell auto arrow bounce"><a href="/#about-me"><i className="fas fa-angle-double-down" id="down"></i></a></div>
             </div>
-            
-        )
-    }
+        </div>
+    )
 }
+export default Greeting;

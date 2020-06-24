@@ -1,12 +1,43 @@
 .skillview {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .skills {
+    /* background-color: #7963aa90; */
+    padding: 3rem;
     margin-bottom: 5rem;
+    text-align: center;
 }
+
 .skillLogo {
     max-width: 100px;
     max-height: 100px;
+}
+
+.skill {
+    margin: .5rem;
+}
+
+.skillcell {
+    color: #8c8c8c;
+    border-width: 2rem;
+    border-color:black; 
+    border-radius: 05%;
+    background-color: whitesmoke;
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.skillhead {
+    font-family: 'Staatliches', sans-serif;
+}
+
+.skillbody {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.icons {
+font-size: 10vw;
 }

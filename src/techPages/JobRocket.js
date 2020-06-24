@@ -5,20 +5,19 @@ import github from "../img/GitHub-Mark-Light-32px.png";
 
 let JobRocket = () => {
     return (
-        <div className="container specs">
-            <div className="row project">
-                <div className="col">
-                    <div>
+        <div className="grid-x grid-margin-x small-margin-collapse align-center">
+            <div className="cell small-12 medium-8 project">
+                <div className="techhead">
                         <h1>JobRocket</h1>
                         <p></p>
                         <a href='https://michaelhrivnak.github.io/JobRocket/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Page</button></a>
                         <a href='https://github.com/michaelhrivnak/JobRocket.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
-                    </div>
+                        </div>
                     <div className="img">
                         <img className="preview" src={Preview} alt="gif of the app" />
                     </div>
 
-                    <div>
+                    <div className="techbody">
                         <h3>Technical Sheet</h3>
                         <p>I was part of a 4 person team of developers tasked with developing an original web application idea that integrated two APIs.</p>
                         <hr></hr>
@@ -40,13 +39,12 @@ let JobRocket = () => {
                         </ul>
                         <p>APIs used</p>
                         <ul className="tech">
-                            <li>Adzuna</li>
-                            <li>GoogleMaps</li>
+                            <li><a className="links" href="https://developer.adzuna.com/" target="_blank" rel="noopener noreferrer">Adzuna</a></li>
+                            <li><a className="links" href="https://cloud.google.com/maps-platform" target="_blank" rel="noopener noreferrer">Googlemaps</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

@@ -20,7 +20,7 @@ let App = () => {
         <div className="App">
 
           <Header />
-          <div className='row'>
+          <div className='grid'>
             <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/jandd" component={Dragons} />

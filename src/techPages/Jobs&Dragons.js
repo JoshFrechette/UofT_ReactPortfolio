@@ -9,7 +9,6 @@ let Dragons = () => {
         <div className="grid-x grid-margin-x small-margin-collapse align-center">
             <div className="cell small-12 medium-8 project">
                 <div className="techhead">
-                    <div>
                         <h1>Jobs&#38;Dragons</h1>
                         <p></p>
                         <a href='https://jobs-and-dragons.herokuapp.com/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={heroku} alt="heroku logo"></img>Heroku Deployment</button></a>
@@ -50,7 +49,6 @@ let Dragons = () => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

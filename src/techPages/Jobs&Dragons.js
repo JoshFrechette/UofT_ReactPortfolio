@@ -6,9 +6,9 @@ import github from "../img/GitHub-Mark-Light-32px.png";
 
 let Dragons = () => {
     return (
-        <div className="container specs">
-            <div className="row project">
-                <div className="col">
+        <div className="grid-x grid-margin-x small-margin-collapse align-center">
+            <div className="cell small-12 medium-8 project">
+                <div className="techhead">
                     <div>
                         <h1>Jobs&#38;Dragons</h1>
                         <p></p>
@@ -19,7 +19,7 @@ let Dragons = () => {
                         <img className="preview" src={Preview} alt="gif of the app" />
                     </div>
 
-                    <div>
+                    <div className="techbody">
                         <h3>Technical Sheet</h3>
                         <p>I was part of an 8 person team of developers tasked with developing an original full-stack web application with MERN deployment.</p>
                         <hr></hr>
@@ -44,8 +44,8 @@ let Dragons = () => {
                         </ul>
                         <p>APIs used</p>
                         <ul className="tech">
-                            <li>AuthenticJobs</li>
-                            <li>GitHub API</li>
+                        <li><a className="links" href="https://developer.adzuna.com/" target="_blank" rel="noopener noreferrer">Adzuna</a></li>
+                            <li><a className="links" href="https://developer.github.com/v3/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                         </ul>
                     </div>
                 </div>

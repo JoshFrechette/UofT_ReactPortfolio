@@ -23,7 +23,7 @@ let bioInfo = () => {
 
                         <div className="grid-x auto">
                             <div className="cell small-2"><i class="bioicon fas fa-user-tag"></i></div>
-                            <div clasName="cell small-8"><p>Front End Web Developer<br></br>Graphic Designer</p></div>
+                            <div className="cell small-8"><p>Web Developer<br></br>Graphic Designer</p></div>
                         </div>
                         <div className="grid-x auto">
                             <div className="cell small-2"><i class="bioicon fas fa-map-pin"></i></div>
@@ -33,9 +33,9 @@ let bioInfo = () => {
 
                 </div>
 
-                <div className="small-12 medium-6 cell blurb">
+                <div className="small-12 large-6 cell blurb">
                     <p>
-                        Front End Developer with a certificate in Full Stack Web Development from the University of Toronto. Experience as a Graphic Designer
+                        Web Developer with a certificate in Full Stack Web Development from the University of Toronto. Experience as a Graphic Designer
                         and gained a bachelor's degree in Graphic Design at the Ontario College of Art &amp; Design. Background in the hospitality industry,
                         including supervising and management roles. Design software skills in Adobe Creative Suite and Coding skills in HTML, CSS, and Javascript.
                             </p>

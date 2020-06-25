@@ -33,11 +33,24 @@
     font-family: 'Staatliches', sans-serif;
 }
 
-.skillbody {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-}
-
 .icons {
 font-size: 10vw;
 }
+
+.skillbody {
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.askill {
+    font-size: 1rem;
+    font-weight: bolder;
+    top: 50%;
+    color: whitesmoke;
+    background-color: dimgray;
+    border: .2rem solid dimgray;
+    border-radius: 20px;
+    margin: 0rem .5rem .5rem .5rem;
+    padding: .2rem .3rem .2rem .3rem;
+} 

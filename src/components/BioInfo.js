@@ -33,7 +33,7 @@ let bioInfo = () => {
 
                 </div>
 
-                <div className="small-12 medium-6 cell blurb">
+                <div className="small-12 medium-8 cell blurb">
                     <p>
                         Front End Developer with a certificate in Full Stack Web Development from the University of Toronto. Experience as a Graphic Designer
                         and gained a bachelor's degree in Graphic Design at the Ontario College of Art &amp; Design. Background in the hospitality industry,

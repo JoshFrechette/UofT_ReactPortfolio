@@ -24,8 +24,21 @@ let Skills = () => {
                         <h3 className="skillhead">Graphic Design</h3>
                     </div>
                     <hr></hr>
-                    <div className="skillbody">
-                        <p>I am proficient in Adobe Creative Suite, including PhotoShop, Illustrator, and InDesign. I am also experienced in Web Design, Logo Design, and Printing Methods.</p>
+                    {/* <div className="grid-x grid-margin-x skillbody">
+                            <div className="cell small-3 medium-6"><p className="askill">PhotoShop</p></div>
+                            <div className="cell small-3 medium-6"><p className="askill">Illustrator</p></div>
+                    </div> */}
+                    <div className="grid-x grid-margin-x skillbody">
+                        <p className="askill">PhotoShop</p>
+                        <p className="askill">Illustrator</p>
+                        <p className="askill">InDesign</p>
+                        <p className="askill">Web Design</p>
+                        <p className="askill">UI/UX Design</p>
+                        <p className="askill">Logo Design</p>
+                        <p className="askill">Branding</p>
+                        <p className="askill">Typography</p>
+                        <p className="askill">Print Design</p>
+                        <p className="askill">Problem Solving</p>
                     </div>
                 </div>
 
@@ -35,9 +48,25 @@ let Skills = () => {
                         <h3 className="skillhead">Web Development</h3>
                     </div>
                     <hr></hr>
-                    <div className="skillbody">
-                        <p>I am proficient at Full Stack Web Development, including MERN deployment, database management with MongoDB and MySQL, as well as GIT and Node.js. I'm also experienced coding with HTML5, CSS3, Javascript, jQuery, and JSX.</p>
+                    <div className="grid-x grid-margin-x skillbody">
+                        <p className="askill">HTML5</p>
+                        <p className="askill">CSS3</p>
+                        <p className="askill">Bootstrap</p>
+                        <p className="askill">Foundation</p>
+                        <p className="askill">Material-UI</p>
+                        <p className="askill">Javascript</p>
+                        <p className="askill">jQuery</p>
+                        <p className="askill">SQL</p>
+                        <p className="askill">MySQL</p>
+                        <p className="askill">MongoDB</p>
+                        <p className="askill">Node.js</p>
+                        <p className="askill">Typography</p>
+                        <p className="askill">React</p>
+                        <p className="askill">ExpressJS</p>
+                        <p className="askill">GitHub</p>
+                        <p className="askill">Heroku</p>
                     </div>
+
                 </div>
 
             </div>

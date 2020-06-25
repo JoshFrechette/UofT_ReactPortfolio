@@ -31,10 +31,13 @@
     font-size: 2rem;
     color:black;
     font-family: "Staatliches";
-    margin: 0%;
     top: 50%;
     /* -ms-transform: translateY(-50%);
     transform: translateY(-50%); */
+}
+
+.branding {
+    top: 50%;
 }
 
 .emphasis {

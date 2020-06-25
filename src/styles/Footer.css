@@ -9,3 +9,8 @@
     background-color: #666666;
     /* border-top: 5px solid#4aaaa5; */
 }
+
+.text-muted {
+    bottom: 1px;
+    position: absolute;
+}

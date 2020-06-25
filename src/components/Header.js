@@ -7,8 +7,8 @@ let Header = () => {
   return (
 
     <div className="cell shrink header medium-cell-block-container">
-      {/* <div className="grid-x grid-padding-x"> */}
-
+      
+      {/* <div className="grid-x grid-padding-x"> //Needs to be retooled to toggle nav menu to hamburger*/}
         {/* <div className="title-bar align-right" dataResponsiveToggle="example-menu" dataHideFor="medium">
           <button className="menu-icon" type="button" dataToggle="example-menu"></button>
           <div className="title-bar-title">Menu</div>
@@ -16,13 +16,13 @@ let Header = () => {
 
         <div className="top-bar" >
 
-        <div className="top-bar-left">
-          <img src="TwistedPixels.png" id="brand-logo" href="#" alt="JFD Logo"></img>
+        <div className="top-bar-center">
+          <div className="grid-x grid-margin-x">
+          <div className="cell small-4"><img src="TwistedPixels.png" id="brand-logo" href="#" alt="JFD Logo"></img></div>
+          <div className="cell small-8 companyname"><p>Josh Frechette <span className="emphasis">Design</span></p></div>
+          </div>
         </div>
 
-        {/* <div className="top-bar-middle align-middle">
-          <h3 className="companyname">Josh Frechette Design</h3>
-        </div> */}
 
           <div className="top-bar-right align-right" id="example-menu">
             {/* <ul className="menu" dataDropdownMenu> */}

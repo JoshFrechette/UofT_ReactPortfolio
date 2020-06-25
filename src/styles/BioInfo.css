@@ -1,5 +1,7 @@
 #content {
     background-color: #e6e6e6;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
     /* display: flex; */
     /* justify-content: space-between; */
 }
@@ -23,9 +25,10 @@
     /* border-radius: 50%; */
 }
 
-/* .ownername {
-    font-size: 3vw;
-} */
+.ownername {
+    font-size: 2rem;
+    font-weight: bolder;
+}
 
 .blurb {
     margin-left: 2rem;
@@ -37,10 +40,17 @@
 
 .resume {
     color: white;
+    font-size: 2.5rem;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .pdf {
     color: red;
+    font-size: 2.5rem;
+}
+
+.bioicon {
     font-size: 2rem;
+    color: red;
+    vertical-align: 50%;
 }

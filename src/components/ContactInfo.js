@@ -5,7 +5,7 @@ let ContactInfo = () => {
 
     return (
 
-        <div className="grid contact sectionbg" id="spacer">
+        <div className="grid contact sectionbg">
             <div className="grid-x">
                 <div className="cell">
                     <h2 className="sectionhead" id="contact-me">Reach Out</h2>
@@ -13,7 +13,7 @@ let ContactInfo = () => {
                 </div>
             </div>
 
-            <div className="grid-x grid-margin-y" id="reachme">
+            <div className="grid-x grid-margin-y">
 
                 <div className="cell small-12 medium-6">
                     <a className="reach-out" href="mailto:josh@joshfdesign.ca" target="_blank" rel="noopener noreferrer">

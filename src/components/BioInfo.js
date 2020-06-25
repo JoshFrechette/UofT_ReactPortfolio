@@ -7,6 +7,7 @@ let bioInfo = () => {
 
     return (
         <div className="grid bio align-center sectionbg">
+
             <div className="grid grid-padding-x">
                 <div className="cell"><h2 className="sectionhead" id="about-me">About Me</h2></div>
                 <hr></hr>
@@ -14,19 +15,25 @@ let bioInfo = () => {
 
             <div className="grid-x grid-padding-x align-center">
 
-                <div className="grid grid-padding" id="content">
+                <div className="grid grid-margin-y" id="content">
 
                     <div className="small-12 medium-6 cell stats">
                         <img src={BioPic} className="profile" alt="Professional profile of Josh Frechette"></img>
                         <h4 className="ownername">Josh Fr&eacute;chette</h4>
-                        <p>Front End Web Developer<br></br>Graphic Designer</p>
-                        <p>Toronto, Ontario, Canada</p>
+
+                        <div className="grid-x auto">
+                            <div className="cell small-2"><i class="bioicon fas fa-user-tag"></i></div>
+                            <div clasName="cell small-8"><p>Front End Web Developer<br></br>Graphic Designer</p></div>
+                        </div>
+                        <div className="grid-x auto">
+                            <div className="cell small-2"><i class="bioicon fas fa-map-pin"></i></div>
+                            <div className="cell small-8"><p>Toronto, Ontario, Canada</p></div></div>
                         <div className=" button secondary "> <i className="pdf far fa-file-pdf"></i> <a className="resume" href={CV} target="_blank" rel="noopener noreferrer">View Resume</a></div>
                     </div>
+
                 </div>
 
                 <div className="small-12 medium-6 cell blurb">
-
                     <p>
                         Front End Developer with a certificate in Full Stack Web Development from the University of Toronto. Experience as a Graphic Designer
                         and gained a bachelor's degree in Graphic Design at the Ontario College of Art &amp; Design. Background in the hospitality industry,
@@ -41,10 +48,8 @@ let bioInfo = () => {
                     <p>
                         Using my combined expertise to create an immersive user experience, I'm excited to join a team of like-minded individuals who are striving to leave their mark on the web.
                             </p>
-
-
-                   
                 </div>
+
             </div>
         </div>
     )

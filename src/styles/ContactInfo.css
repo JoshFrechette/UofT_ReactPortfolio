@@ -6,13 +6,6 @@
 
 }
 
-#reachme {
-    /* display:inline-block; */
-    display: flex;
-    justify-content:space-around ;
-
-}
-
 .reach-out {
     font-size: 140% ;
     color: white;

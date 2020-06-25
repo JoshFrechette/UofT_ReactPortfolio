@@ -18,7 +18,7 @@ let Skills = () => {
 
             <div className="grid-x grid-padding-x align-center">
 
-                <div className="cell small-12 medium-4 skillcell">
+                <div className="cell small-12 medium-6 large-4 skillcell">
                     <div className="skillhead">
                         <i className="icons far fa-object-group"></i>
                         <h3 className="skillhead">Graphic Design</h3>
@@ -42,7 +42,7 @@ let Skills = () => {
                     </div>
                 </div>
 
-                <div className="cell small-12 medium-4 skillcell">
+                <div className="cell small-12 medium-6 large-4 skillcell">
                     <div className="skillhead">
                         <i class="icons fas fa-laptop-code"></i>
                         <h3 className="skillhead">Web Development</h3>

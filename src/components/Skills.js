@@ -53,18 +53,26 @@ let Skills = () => {
                         <p className="askill">CSS3</p>
                         <p className="askill">Bootstrap</p>
                         <p className="askill">Foundation</p>
+                        <p className="askill">jQuery</p>
+                        <p className="askill">Materialize</p>
                         <p className="askill">Material-UI</p>
                         <p className="askill">Javascript</p>
                         <p className="askill">jQuery</p>
+                        <p className="askill">Handlebars</p>
+                        <p className="askill">AJAX</p>
+                        <p className="askill">Axios</p>
                         <p className="askill">SQL</p>
                         <p className="askill">MySQL</p>
                         <p className="askill">MongoDB</p>
+                        <p className="askill">Mongogoose</p>
+                        <p className="askill">JawsDB</p>
                         <p className="askill">Node.js</p>
-                        <p className="askill">Typography</p>
                         <p className="askill">React</p>
                         <p className="askill">ExpressJS</p>
+                        <p className="askill">Git</p>
                         <p className="askill">GitHub</p>
                         <p className="askill">Heroku</p>
+                        <p className="askill">Travis</p>
                     </div>
 
                 </div>

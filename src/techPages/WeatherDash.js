@@ -10,7 +10,7 @@ let WeatherDash = () => {
                 <div className="techhead">
                         <h1>Weather Dashboard</h1>
                         <p></p>
-                        <a href='https://joshfrechette.github.io/WeatherDashboard/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Page</button></a>
+                        <a href='https://joshfrechette.github.io/UofT_WeatherDashboard/' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Page</button></a>
                         <a href='https://github.com/JoshFrechette/WeatherDashboard.git' target="_blank" rel="noopener noreferrer"><button className="button"><img className="buttonlogo" src={github} alt="github logo"></img>GitHub Repository</button></a>
                     </div>
                     <div className="img">

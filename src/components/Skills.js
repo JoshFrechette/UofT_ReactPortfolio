@@ -64,7 +64,7 @@ let Skills = () => {
                         <p className="askill">SQL</p>
                         <p className="askill">MySQL</p>
                         <p className="askill">MongoDB</p>
-                        <p className="askill">Mongogoose</p>
+                        <p className="askill">Mongoose</p>
                         <p className="askill">JawsDB</p>
                         <p className="askill">Node.js</p>
                         <p className="askill">React</p>

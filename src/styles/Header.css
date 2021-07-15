@@ -28,12 +28,14 @@
 }
 
 .companyname {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     color:black;
-    font-family: "Staatliches";
-    top: 50%;
-    /* -ms-transform: translateY(-50%);
-    transform: translateY(-50%); */
+    /* font-family: "Staatliches"; */
+    /* height: 50%; */
+    -ms-transform: translateY(25%);
+    transform: translateY(25%);
 }
 
 .branding {

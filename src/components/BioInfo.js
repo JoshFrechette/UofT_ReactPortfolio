@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/BioInfo.css";
 import BioPic from "../img/JF-LinkedIn.jpg";
-import CV from "../img/JoshuaFrechette_Resume.pdf";
+import CV from "../img/JoshuaFrechette_resume_2021.pdf";
 
 let bioInfo = () => {
 
